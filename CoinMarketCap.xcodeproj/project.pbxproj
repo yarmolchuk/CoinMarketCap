@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414335F325DF1251006EDA78 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335F225DF1251006EDA78 /* Tests_iOS.swift */; };
+		414335FE25DF1252006EDA78 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335FD25DF1252006EDA78 /* Tests_macOS.swift */; };
+		4143360025DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */; };
+		4143360125DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */; };
+		4143360225DF1252006EDA78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D825DF124F006EDA78 /* ContentView.swift */; };
+		4143360325DF1252006EDA78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D825DF124F006EDA78 /* ContentView.swift */; };
+		4143360425DF1252006EDA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414335D925DF1251006EDA78 /* Assets.xcassets */; };
+		4143360525DF1252006EDA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414335D925DF1251006EDA78 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		414335EF25DF1251006EDA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 414335D225DF124E006EDA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 414335DD25DF1251006EDA78;
+			remoteInfo = "CoinMarketCap (iOS)";
+		};
+		414335FA25DF1252006EDA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 414335D225DF124E006EDA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 414335E525DF1251006EDA78;
+			remoteInfo = "CoinMarketCap (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapApp.swift; sourceTree = "<group>"; };
+		414335D825DF124F006EDA78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		414335D925DF1251006EDA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		414335DE25DF1251006EDA78 /* CoinMarketCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMarketCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		414335E125DF1251006EDA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414335E625DF1251006EDA78 /* CoinMarketCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMarketCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		414335E825DF1251006EDA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414335E925DF1251006EDA78 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		414335EE25DF1251006EDA78 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		414335F225DF1251006EDA78 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		414335F425DF1251006EDA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414335F925DF1252006EDA78 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		414335FD25DF1252006EDA78 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		414335FF25DF1252006EDA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414335DB25DF1251006EDA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335E325DF1251006EDA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335EB25DF1251006EDA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335F625DF1252006EDA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414335D125DF124E006EDA78 = {
+			isa = PBXGroup;
+			children = (
+				414335D625DF124F006EDA78 /* Shared */,
+				414335E025DF1251006EDA78 /* iOS */,
+				414335E725DF1251006EDA78 /* macOS */,
+				414335F125DF1251006EDA78 /* Tests iOS */,
+				414335FC25DF1252006EDA78 /* Tests macOS */,
+				414335DF25DF1251006EDA78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		414335D625DF124F006EDA78 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */,
+				414335D825DF124F006EDA78 /* ContentView.swift */,
+				414335D925DF1251006EDA78 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		414335DF25DF1251006EDA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414335DE25DF1251006EDA78 /* CoinMarketCap.app */,
+				414335E625DF1251006EDA78 /* CoinMarketCap.app */,
+				414335EE25DF1251006EDA78 /* Tests iOS.xctest */,
+				414335F925DF1252006EDA78 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		414335E025DF1251006EDA78 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				414335E125DF1251006EDA78 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		414335E725DF1251006EDA78 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				414335E825DF1251006EDA78 /* Info.plist */,
+				414335E925DF1251006EDA78 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		414335F125DF1251006EDA78 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				414335F225DF1251006EDA78 /* Tests_iOS.swift */,
+				414335F425DF1251006EDA78 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		414335FC25DF1252006EDA78 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				414335FD25DF1252006EDA78 /* Tests_macOS.swift */,
+				414335FF25DF1252006EDA78 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414335DD25DF1251006EDA78 /* CoinMarketCap (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143360825DF1252006EDA78 /* Build configuration list for PBXNativeTarget "CoinMarketCap (iOS)" */;
+			buildPhases = (
+				414335DA25DF1251006EDA78 /* Sources */,
+				414335DB25DF1251006EDA78 /* Frameworks */,
+				414335DC25DF1251006EDA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoinMarketCap (iOS)";
+			productName = "CoinMarketCap (iOS)";
+			productReference = 414335DE25DF1251006EDA78 /* CoinMarketCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		414335E525DF1251006EDA78 /* CoinMarketCap (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143360B25DF1252006EDA78 /* Build configuration list for PBXNativeTarget "CoinMarketCap (macOS)" */;
+			buildPhases = (
+				414335E225DF1251006EDA78 /* Sources */,
+				414335E325DF1251006EDA78 /* Frameworks */,
+				414335E425DF1251006EDA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoinMarketCap (macOS)";
+			productName = "CoinMarketCap (macOS)";
+			productReference = 414335E625DF1251006EDA78 /* CoinMarketCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		414335ED25DF1251006EDA78 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143360E25DF1252006EDA78 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				414335EA25DF1251006EDA78 /* Sources */,
+				414335EB25DF1251006EDA78 /* Frameworks */,
+				414335EC25DF1251006EDA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				414335F025DF1251006EDA78 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 414335EE25DF1251006EDA78 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		414335F825DF1252006EDA78 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143361125DF1252006EDA78 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				414335F525DF1252006EDA78 /* Sources */,
+				414335F625DF1252006EDA78 /* Frameworks */,
+				414335F725DF1252006EDA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				414335FB25DF1252006EDA78 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 414335F925DF1252006EDA78 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414335D225DF124E006EDA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					414335DD25DF1251006EDA78 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					414335E525DF1251006EDA78 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					414335ED25DF1251006EDA78 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 414335DD25DF1251006EDA78;
+					};
+					414335F825DF1252006EDA78 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 414335E525DF1251006EDA78;
+					};
+				};
+			};
+			buildConfigurationList = 414335D525DF124E006EDA78 /* Build configuration list for PBXProject "CoinMarketCap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 414335D125DF124E006EDA78;
+			productRefGroup = 414335DF25DF1251006EDA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414335DD25DF1251006EDA78 /* CoinMarketCap (iOS) */,
+				414335E525DF1251006EDA78 /* CoinMarketCap (macOS) */,
+				414335ED25DF1251006EDA78 /* Tests iOS */,
+				414335F825DF1252006EDA78 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414335DC25DF1251006EDA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143360425DF1252006EDA78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335E425DF1251006EDA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143360525DF1252006EDA78 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335EC25DF1251006EDA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335F725DF1252006EDA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414335DA25DF1251006EDA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143360225DF1252006EDA78 /* ContentView.swift in Sources */,
+				4143360025DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335E225DF1251006EDA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143360325DF1252006EDA78 /* ContentView.swift in Sources */,
+				4143360125DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335EA25DF1251006EDA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414335F325DF1251006EDA78 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414335F525DF1252006EDA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414335FE25DF1252006EDA78 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		414335F025DF1251006EDA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 414335DD25DF1251006EDA78 /* CoinMarketCap (iOS) */;
+			targetProxy = 414335EF25DF1251006EDA78 /* PBXContainerItemProxy */;
+		};
+		414335FB25DF1252006EDA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 414335E525DF1251006EDA78 /* CoinMarketCap (macOS) */;
+			targetProxy = 414335FA25DF1252006EDA78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4143360625DF1252006EDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4143360725DF1252006EDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4143360925DF1252006EDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yarmolchuk.CoinMarketCap;
+				PRODUCT_NAME = CoinMarketCap;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4143360A25DF1252006EDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yarmolchuk.CoinMarketCap;
+				PRODUCT_NAME = CoinMarketCap;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4143360C25DF1252006EDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yarmolchuk.CoinMarketCap;
+				PRODUCT_NAME = CoinMarketCap;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4143360D25DF1252006EDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yarmolchuk.CoinMarketCap;
+				PRODUCT_NAME = CoinMarketCap;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4143360F25DF1252006EDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yarmolchuk.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoinMarketCap (iOS)";
+			};
+			name = Debug;
+		};
+		4143361025DF1252006EDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yarmolchuk.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoinMarketCap (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4143361225DF1252006EDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "yarmolchuk.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CoinMarketCap (macOS)";
+			};
+			name = Debug;
+		};
+		4143361325DF1252006EDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "yarmolchuk.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "CoinMarketCap (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414335D525DF124E006EDA78 /* Build configuration list for PBXProject "CoinMarketCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143360625DF1252006EDA78 /* Debug */,
+				4143360725DF1252006EDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143360825DF1252006EDA78 /* Build configuration list for PBXNativeTarget "CoinMarketCap (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143360925DF1252006EDA78 /* Debug */,
+				4143360A25DF1252006EDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143360B25DF1252006EDA78 /* Build configuration list for PBXNativeTarget "CoinMarketCap (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143360C25DF1252006EDA78 /* Debug */,
+				4143360D25DF1252006EDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143360E25DF1252006EDA78 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143360F25DF1252006EDA78 /* Debug */,
+				4143361025DF1252006EDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143361125DF1252006EDA78 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143361225DF1252006EDA78 /* Debug */,
+				4143361325DF1252006EDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 414335D225DF124E006EDA78 /* Project object */;
+}
