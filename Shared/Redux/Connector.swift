@@ -10,6 +10,7 @@ import Core
 
 protocol Connector: View {
     associatedtype Content: View
+    
     func map(graph: Graph) -> Content
 }
 

@@ -43,8 +43,8 @@
 		4143377225E0F282006EDA78 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377025E0F282006EDA78 /* ImageCache.swift */; };
 		4143377C25E0F451006EDA78 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377B25E0F451006EDA78 /* API.swift */; };
 		4143377D25E0F451006EDA78 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377B25E0F451006EDA78 /* API.swift */; };
-		4143378425E0FE1D006EDA78 /* CoinListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143378325E0FE1D006EDA78 /* CoinListResult.swift */; };
-		4143378525E0FE1D006EDA78 /* CoinListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143378325E0FE1D006EDA78 /* CoinListResult.swift */; };
+		4143378425E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143378325E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift */; };
+		4143378525E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143378325E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +93,7 @@
 		4143376325E0F225006EDA78 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		4143377025E0F282006EDA78 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		4143377B25E0F451006EDA78 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		4143378325E0FE1D006EDA78 /* CoinListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListResult.swift; sourceTree = "<group>"; };
+		4143378325E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllActiveCryptocurrenciesResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,7 +278,7 @@
 		4143378225E0FDEB006EDA78 /* Model extension */ = {
 			isa = PBXGroup;
 			children = (
-				4143378325E0FE1D006EDA78 /* CoinListResult.swift */,
+				4143378325E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift */,
 			);
 			path = "Model extension";
 			sourceTree = "<group>";
@@ -460,7 +460,7 @@
 				4143366D25DF1811006EDA78 /* Types.swift in Sources */,
 				4143365F25DF17E1006EDA78 /* Connector.swift in Sources */,
 				4143365425DF17CF006EDA78 /* Store.swift in Sources */,
-				4143378425E0FE1D006EDA78 /* CoinListResult.swift in Sources */,
+				4143378425E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift in Sources */,
 				4143369F25DF1B42006EDA78 /* CoinRow.swift in Sources */,
 				4143369825DF1B2E006EDA78 /* CoinsListConnector.swift in Sources */,
 				4143377C25E0F451006EDA78 /* API.swift in Sources */,
@@ -480,7 +480,7 @@
 				4143366E25DF1811006EDA78 /* Types.swift in Sources */,
 				4143366025DF17E1006EDA78 /* Connector.swift in Sources */,
 				4143365525DF17CF006EDA78 /* Store.swift in Sources */,
-				4143378525E0FE1D006EDA78 /* CoinListResult.swift in Sources */,
+				4143378525E0FE1D006EDA78 /* AllActiveCryptocurrenciesResult.swift in Sources */,
 				414336A025DF1B42006EDA78 /* CoinRow.swift in Sources */,
 				4143369925DF1B2E006EDA78 /* CoinsListConnector.swift in Sources */,
 				4143377D25E0F451006EDA78 /* API.swift in Sources */,

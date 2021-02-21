@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class EnvironmentStore: ObservableObject {
+final class EnvironmentStore: ObservableObject {
     @Published private (set) var graph: Graph
     
     let store: Store

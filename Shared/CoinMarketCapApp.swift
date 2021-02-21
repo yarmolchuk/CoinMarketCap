@@ -6,10 +6,10 @@
 //
 
 import SwiftUI
+import Combine
 import NetworkOperator
 import CoinMarketCapAPI
 import Core
-import Combine
 
 @main
 struct CoinMarketCap: App {

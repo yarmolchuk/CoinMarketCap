@@ -41,6 +41,7 @@ struct NetworkDriver {
                 handler: { data, response, error in
                     let result = request.handler(data, response, error)
                     let action = onComplete(result)
+                    
                     self.store.dispatch(action: action)
             }))
         }
@@ -53,28 +54,5 @@ struct NetworkDriver {
                 return ReceiveCoins(coins: result.asCoins)
             }
         }
-    }
-}
-
-extension Client.AllActiveCryptocurrenciesResult.Result {
-    var asCoreCoin: Core.Coin {
-        Coin(
-            id: Coin.Id(value: id),
-            name: name,
-            symbol: symbol,
-            slug: slug,
-            numMarketPairs: numMarketPairs,
-            maxSupply: maxSupply,
-            circulatingSupply: circulatingSupply,
-            totalSupply: totalSupply,
-            cmcRank: cmcRank,
-            price: quote.usd.price
-        )
-    }
-}
-
-extension Client.AllActiveCryptocurrenciesResult {
-    var asCoins: [Coin] {
-        data.map(\.asCoreCoin)
     }
 }

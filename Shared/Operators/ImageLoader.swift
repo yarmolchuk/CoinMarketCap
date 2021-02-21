@@ -11,7 +11,7 @@ import Dispatch
 import UIKit
 import Core
 
-class ImageLoader {
+final class ImageLoader {
     internal init(store: Store, cache: ImageCache) {
         self.store = store
         self.cache = cache
