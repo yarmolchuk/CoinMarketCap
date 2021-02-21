@@ -3,18 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		414335F325DF1251006EDA78 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335F225DF1251006EDA78 /* Tests_iOS.swift */; };
 		414335FE25DF1252006EDA78 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335FD25DF1252006EDA78 /* Tests_macOS.swift */; };
-		4143360025DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */; };
-		4143360125DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */; };
-		4143360225DF1252006EDA78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D825DF124F006EDA78 /* ContentView.swift */; };
-		4143360325DF1252006EDA78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414335D825DF124F006EDA78 /* ContentView.swift */; };
 		4143360425DF1252006EDA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414335D925DF1251006EDA78 /* Assets.xcassets */; };
 		4143360525DF1252006EDA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414335D925DF1251006EDA78 /* Assets.xcassets */; };
+		4143362F25DF159F006EDA78 /* CoinMarketCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143362E25DF159F006EDA78 /* CoinMarketCapApp.swift */; };
+		4143363025DF159F006EDA78 /* CoinMarketCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143362E25DF159F006EDA78 /* CoinMarketCapApp.swift */; };
+		4143363725DF1664006EDA78 /* CoinMarketCapAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 4143363625DF1664006EDA78 /* CoinMarketCapAPI */; };
+		4143363925DF1664006EDA78 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4143363825DF1664006EDA78 /* Core */; };
+		4143363B25DF1664006EDA78 /* NetworkOperator in Frameworks */ = {isa = PBXBuildFile; productRef = 4143363A25DF1664006EDA78 /* NetworkOperator */; };
+		4143363D25DF1664006EDA78 /* ReduxStore in Frameworks */ = {isa = PBXBuildFile; productRef = 4143363C25DF1664006EDA78 /* ReduxStore */; };
+		4143364725DF16D9006EDA78 /* CoinMarketCapAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 4143364625DF16D9006EDA78 /* CoinMarketCapAPI */; };
+		4143364925DF16D9006EDA78 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4143364825DF16D9006EDA78 /* Core */; };
+		4143364B25DF16D9006EDA78 /* NetworkOperator in Frameworks */ = {isa = PBXBuildFile; productRef = 4143364A25DF16D9006EDA78 /* NetworkOperator */; };
+		4143364D25DF16D9006EDA78 /* ReduxStore in Frameworks */ = {isa = PBXBuildFile; productRef = 4143364C25DF16D9006EDA78 /* ReduxStore */; };
+		4143365425DF17CF006EDA78 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143365325DF17CF006EDA78 /* Store.swift */; };
+		4143365525DF17CF006EDA78 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143365325DF17CF006EDA78 /* Store.swift */; };
+		4143365F25DF17E1006EDA78 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143365E25DF17E1006EDA78 /* Connector.swift */; };
+		4143366025DF17E1006EDA78 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143365E25DF17E1006EDA78 /* Connector.swift */; };
+		4143366625DF17F2006EDA78 /* StoreProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143366525DF17F2006EDA78 /* StoreProvider.swift */; };
+		4143366725DF17F2006EDA78 /* StoreProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143366525DF17F2006EDA78 /* StoreProvider.swift */; };
+		4143366D25DF1811006EDA78 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143366C25DF1811006EDA78 /* Types.swift */; };
+		4143366E25DF1811006EDA78 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143366C25DF1811006EDA78 /* Types.swift */; };
+		4143367425DF1829006EDA78 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143367325DF1829006EDA78 /* Command.swift */; };
+		4143367525DF1829006EDA78 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143367325DF1829006EDA78 /* Command.swift */; };
+		4143368D25DF1B12006EDA78 /* CoinsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143368C25DF1B12006EDA78 /* CoinsList.swift */; };
+		4143368E25DF1B12006EDA78 /* CoinsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143368C25DF1B12006EDA78 /* CoinsList.swift */; };
+		4143369825DF1B2E006EDA78 /* CoinsListConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143369725DF1B2E006EDA78 /* CoinsListConnector.swift */; };
+		4143369925DF1B2E006EDA78 /* CoinsListConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143369725DF1B2E006EDA78 /* CoinsListConnector.swift */; };
+		4143369F25DF1B42006EDA78 /* CoinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143369E25DF1B42006EDA78 /* CoinRow.swift */; };
+		414336A025DF1B42006EDA78 /* CoinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143369E25DF1B42006EDA78 /* CoinRow.swift */; };
+		4143376425E0F225006EDA78 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143376325E0F225006EDA78 /* ImageLoader.swift */; };
+		4143376525E0F225006EDA78 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143376325E0F225006EDA78 /* ImageLoader.swift */; };
+		4143377125E0F282006EDA78 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377025E0F282006EDA78 /* ImageCache.swift */; };
+		4143377225E0F282006EDA78 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377025E0F282006EDA78 /* ImageCache.swift */; };
+		4143377C25E0F451006EDA78 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377B25E0F451006EDA78 /* API.swift */; };
+		4143377D25E0F451006EDA78 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143377B25E0F451006EDA78 /* API.swift */; };
+		4143378425E0FE1D006EDA78 /* CoinListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143378325E0FE1D006EDA78 /* CoinListResult.swift */; };
+		4143378525E0FE1D006EDA78 /* CoinListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143378325E0FE1D006EDA78 /* CoinListResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +65,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapApp.swift; sourceTree = "<group>"; };
-		414335D825DF124F006EDA78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		414335D925DF1251006EDA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414335DE25DF1251006EDA78 /* CoinMarketCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinMarketCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		414335E125DF1251006EDA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,23 @@
 		414335F925DF1252006EDA78 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		414335FD25DF1252006EDA78 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		414335FF25DF1252006EDA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4143361A25DF1338006EDA78 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = ../Core; sourceTree = "<group>"; };
+		4143361F25DF13ED006EDA78 /* ReduxStore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ReduxStore; path = ../ReduxStore; sourceTree = "<group>"; };
+		4143362425DF1478006EDA78 /* NetworkOperator */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NetworkOperator; path = ../NetworkOperator; sourceTree = "<group>"; };
+		4143362925DF14FA006EDA78 /* CoinMarketCapAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CoinMarketCapAPI; path = ../CoinMarketCapAPI; sourceTree = "<group>"; };
+		4143362E25DF159F006EDA78 /* CoinMarketCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapApp.swift; sourceTree = "<group>"; };
+		4143365325DF17CF006EDA78 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		4143365E25DF17E1006EDA78 /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		4143366525DF17F2006EDA78 /* StoreProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProvider.swift; sourceTree = "<group>"; };
+		4143366C25DF1811006EDA78 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		4143367325DF1829006EDA78 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		4143368C25DF1B12006EDA78 /* CoinsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsList.swift; sourceTree = "<group>"; };
+		4143369725DF1B2E006EDA78 /* CoinsListConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsListConnector.swift; sourceTree = "<group>"; };
+		4143369E25DF1B42006EDA78 /* CoinRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRow.swift; sourceTree = "<group>"; };
+		4143376325E0F225006EDA78 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		4143377025E0F282006EDA78 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		4143377B25E0F451006EDA78 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4143378325E0FE1D006EDA78 /* CoinListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4143363B25DF1664006EDA78 /* NetworkOperator in Frameworks */,
+				4143363725DF1664006EDA78 /* CoinMarketCapAPI in Frameworks */,
+				4143363925DF1664006EDA78 /* Core in Frameworks */,
+				4143363D25DF1664006EDA78 /* ReduxStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +112,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4143364B25DF16D9006EDA78 /* NetworkOperator in Frameworks */,
+				4143364725DF16D9006EDA78 /* CoinMarketCapAPI in Frameworks */,
+				4143364925DF16D9006EDA78 /* Core in Frameworks */,
+				4143364D25DF16D9006EDA78 /* ReduxStore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +139,30 @@
 		414335D125DF124E006EDA78 = {
 			isa = PBXGroup;
 			children = (
+				4143362925DF14FA006EDA78 /* CoinMarketCapAPI */,
+				4143362425DF1478006EDA78 /* NetworkOperator */,
+				4143361F25DF13ED006EDA78 /* ReduxStore */,
+				4143361A25DF1338006EDA78 /* Core */,
 				414335D625DF124F006EDA78 /* Shared */,
 				414335E025DF1251006EDA78 /* iOS */,
 				414335E725DF1251006EDA78 /* macOS */,
 				414335F125DF1251006EDA78 /* Tests iOS */,
 				414335FC25DF1252006EDA78 /* Tests macOS */,
 				414335DF25DF1251006EDA78 /* Products */,
+				4143363525DF1664006EDA78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		414335D625DF124F006EDA78 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				414335D725DF124F006EDA78 /* CoinMarketCapApp.swift */,
-				414335D825DF124F006EDA78 /* ContentView.swift */,
+				4143376E25E0F267006EDA78 /* Common */,
+				4143376225E0F215006EDA78 /* Operators */,
+				4143368A25DF1ADC006EDA78 /* Views */,
+				4143365225DF17C6006EDA78 /* Redux */,
+				4143362E25DF159F006EDA78 /* CoinMarketCapApp.swift */,
+				4143366C25DF1811006EDA78 /* Types.swift */,
+				4143367325DF1829006EDA78 /* Command.swift */,
 				414335D925DF1251006EDA78 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +214,75 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		4143363525DF1664006EDA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4143365225DF17C6006EDA78 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				4143365325DF17CF006EDA78 /* Store.swift */,
+				4143365E25DF17E1006EDA78 /* Connector.swift */,
+				4143366525DF17F2006EDA78 /* StoreProvider.swift */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		4143368A25DF1ADC006EDA78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4143368B25DF1AF4006EDA78 /* Coins list */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4143368B25DF1AF4006EDA78 /* Coins list */ = {
+			isa = PBXGroup;
+			children = (
+				4143369E25DF1B42006EDA78 /* CoinRow.swift */,
+				4143368C25DF1B12006EDA78 /* CoinsList.swift */,
+				4143369725DF1B2E006EDA78 /* CoinsListConnector.swift */,
+			);
+			path = "Coins list";
+			sourceTree = "<group>";
+		};
+		4143376225E0F215006EDA78 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				4143378225E0FDEB006EDA78 /* Model extension */,
+				4143376325E0F225006EDA78 /* ImageLoader.swift */,
+				4143377B25E0F451006EDA78 /* API.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		4143376E25E0F267006EDA78 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4143376F25E0F277006EDA78 /* Helpers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4143376F25E0F277006EDA78 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4143377025E0F282006EDA78 /* ImageCache.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4143378225E0FDEB006EDA78 /* Model extension */ = {
+			isa = PBXGroup;
+			children = (
+				4143378325E0FE1D006EDA78 /* CoinListResult.swift */,
+			);
+			path = "Model extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +299,12 @@
 			dependencies = (
 			);
 			name = "CoinMarketCap (iOS)";
+			packageProductDependencies = (
+				4143363625DF1664006EDA78 /* CoinMarketCapAPI */,
+				4143363825DF1664006EDA78 /* Core */,
+				4143363A25DF1664006EDA78 /* NetworkOperator */,
+				4143363C25DF1664006EDA78 /* ReduxStore */,
+			);
 			productName = "CoinMarketCap (iOS)";
 			productReference = 414335DE25DF1251006EDA78 /* CoinMarketCap.app */;
 			productType = "com.apple.product-type.application";
@@ -184,6 +322,12 @@
 			dependencies = (
 			);
 			name = "CoinMarketCap (macOS)";
+			packageProductDependencies = (
+				4143364625DF16D9006EDA78 /* CoinMarketCapAPI */,
+				4143364825DF16D9006EDA78 /* Core */,
+				4143364A25DF16D9006EDA78 /* NetworkOperator */,
+				4143364C25DF16D9006EDA78 /* ReduxStore */,
+			);
 			productName = "CoinMarketCap (macOS)";
 			productReference = 414335E625DF1251006EDA78 /* CoinMarketCap.app */;
 			productType = "com.apple.product-type.application";
@@ -308,8 +452,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4143360225DF1252006EDA78 /* ContentView.swift in Sources */,
-				4143360025DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */,
+				4143377125E0F282006EDA78 /* ImageCache.swift in Sources */,
+				4143366625DF17F2006EDA78 /* StoreProvider.swift in Sources */,
+				4143362F25DF159F006EDA78 /* CoinMarketCapApp.swift in Sources */,
+				4143376425E0F225006EDA78 /* ImageLoader.swift in Sources */,
+				4143368D25DF1B12006EDA78 /* CoinsList.swift in Sources */,
+				4143366D25DF1811006EDA78 /* Types.swift in Sources */,
+				4143365F25DF17E1006EDA78 /* Connector.swift in Sources */,
+				4143365425DF17CF006EDA78 /* Store.swift in Sources */,
+				4143378425E0FE1D006EDA78 /* CoinListResult.swift in Sources */,
+				4143369F25DF1B42006EDA78 /* CoinRow.swift in Sources */,
+				4143369825DF1B2E006EDA78 /* CoinsListConnector.swift in Sources */,
+				4143377C25E0F451006EDA78 /* API.swift in Sources */,
+				4143367425DF1829006EDA78 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +472,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4143360325DF1252006EDA78 /* ContentView.swift in Sources */,
-				4143360125DF1252006EDA78 /* CoinMarketCapApp.swift in Sources */,
+				4143377225E0F282006EDA78 /* ImageCache.swift in Sources */,
+				4143366725DF17F2006EDA78 /* StoreProvider.swift in Sources */,
+				4143363025DF159F006EDA78 /* CoinMarketCapApp.swift in Sources */,
+				4143376525E0F225006EDA78 /* ImageLoader.swift in Sources */,
+				4143368E25DF1B12006EDA78 /* CoinsList.swift in Sources */,
+				4143366E25DF1811006EDA78 /* Types.swift in Sources */,
+				4143366025DF17E1006EDA78 /* Connector.swift in Sources */,
+				4143365525DF17CF006EDA78 /* Store.swift in Sources */,
+				4143378525E0FE1D006EDA78 /* CoinListResult.swift in Sources */,
+				414336A025DF1B42006EDA78 /* CoinRow.swift in Sources */,
+				4143369925DF1B2E006EDA78 /* CoinsListConnector.swift in Sources */,
+				4143377D25E0F451006EDA78 /* API.swift in Sources */,
+				4143367525DF1829006EDA78 /* Command.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +852,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4143363625DF1664006EDA78 /* CoinMarketCapAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoinMarketCapAPI;
+		};
+		4143363825DF1664006EDA78 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		4143363A25DF1664006EDA78 /* NetworkOperator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkOperator;
+		};
+		4143363C25DF1664006EDA78 /* ReduxStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReduxStore;
+		};
+		4143364625DF16D9006EDA78 /* CoinMarketCapAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoinMarketCapAPI;
+		};
+		4143364825DF16D9006EDA78 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		4143364A25DF16D9006EDA78 /* NetworkOperator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkOperator;
+		};
+		4143364C25DF16D9006EDA78 /* ReduxStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReduxStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 414335D225DF124E006EDA78 /* Project object */;
 }
